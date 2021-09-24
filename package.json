@@ -2,11 +2,8 @@
   "name": "mycv",
   "version": "0.1.0",
   "private": true,
-
   "description": "",
   "main": "index.js",
-
-
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
@@ -14,19 +11,19 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "test" : "jest --watch all"
+    "test": "jest --watch all"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.19.4",
     "package": "^1.0.1"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "html-pdf": "^2.2.0"
   }
 }
