@@ -9,7 +9,7 @@ import background from './img/back.jpg'
 
 class App extends Component {
 
-  
+
   
   render() {
     return (

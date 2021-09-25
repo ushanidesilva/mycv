@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import personalInfo from '../img/personalInfo.png'
+import personalInfo from '../img/user.png'
 import background from '../img/formback.jpg'
 
 class PersonalDetails extends Component {
@@ -13,7 +13,7 @@ class PersonalDetails extends Component {
     return (
       <div className="card animated fadeInLeft">
         <div className="card-body">
-          {/* <img src={personalInfo} width="70" height="50" /> */}
+          <img src={personalInfo} width="70" height="70" />
           <h3 className="card-title">Step 1 : Personal Information</h3>
           <hr />
         </div>
@@ -105,3 +105,4 @@ class PersonalDetails extends Component {
 }
 
 export default PersonalDetails;
+
