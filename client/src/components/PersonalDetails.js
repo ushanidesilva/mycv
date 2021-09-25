@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import personalInfo from '../img/user.png'
-import background from '../img/formback.jpg'
+// import background from '../img/formback.jpg'
 
 class PersonalDetails extends Component {
   continue = (e) => {

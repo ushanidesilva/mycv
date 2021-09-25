@@ -19,7 +19,7 @@ class App extends Component {
         <div className="col-lg-8 mx-auto text-center mt-5" style={{backgroundColor: "white"}}>
         <img src={resume} width="100" height="100" />
           <h1 style={{color: "red"}}><b>Create Your Resume Here</b></h1>
-          <p className="lead">Add your Details Here</p>
+          <p className="lead"><b>Add your Details step by step and create your Resume</b></p>
           <hr />
         </div>  
         <UserForm/>

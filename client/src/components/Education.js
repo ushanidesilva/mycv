@@ -67,7 +67,7 @@ export default class Education extends Component {
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>School Name *</b></label>
-                            <input type="text" name="edu2_school" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_school} onChange={handleChange} />
+                            <input type="text" name="edu2_school" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_school} onChange={handleChange} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>Year *</b></label>
