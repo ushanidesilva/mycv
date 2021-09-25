@@ -80,7 +80,7 @@ class PersonalDetails extends Component {
           <div className="row col-lg-10 mx-auto">
             <div className="col-lg-12 text-left">
               <label>
-                Skills* (Separate each skill with a space and a comma)
+                Technical Skills * (Separate each skill with a comma)
               </label>
               <input
                 type="text"
