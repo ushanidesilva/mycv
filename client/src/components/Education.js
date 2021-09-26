@@ -35,22 +35,36 @@ export default class Education extends Component {
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>College/University Name *</b></label>
-                            <input type="text" name="edu1_school" className="form-control" defaultValue={values.status === 1 ? '' : values.edu1_school} onChange={handleChange} required />
+                            <input type="text" name="edu1_school" 
+                            className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu1_school} 
+                            onChange={handleChange} required />
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>Graduated Year *</b></label>
-                            <input type="text" name="edu1_year" className="form-control" defaultValue={values.status === 1 ? '' : values.edu1_year} onChange={handleChange} required/>
+                            <input type="text" 
+                            name="edu1_year" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu1_year} 
+                            onChange={handleChange} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>Qualification *</b></label>
-                            <input type="text" name="edu1_qualification" className="form-control" defaultValue={values.status === 1 ? '' : values.edu1_qualification} onChange={handleChange} required/>
+                            <input type="text" 
+                            name="edu1_qualification" 
+                            className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu1_qualification} 
+                            onChange={handleChange} required/>
                         </div>
 
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label><b>Description *</b></label>
-                            <input type="text" name="edu1_desc" className="form-control" defaultValue={values.status === 1 ? '' : values.edu1_desc} onChange={handleChange} required />
+                            <input type="text" name="edu1_desc" 
+                            className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu1_desc} 
+                            onChange={handleChange} 
+                            required />
                         </div>
                     </div>
 
@@ -67,22 +81,30 @@ export default class Education extends Component {
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>School Name *</b></label>
-                            <input type="text" name="edu2_school" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_school} onChange={handleChange} required/>
+                            <input type="text" name="edu2_school" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu2_school} 
+                            onChange={handleChange} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>Year *</b></label>
-                            <input type="text" name="edu2_year" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_year} onChange={handleChange} required/>
+                            <input type="text" name="edu2_year" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu2_year} 
+                            onChange={handleChange} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label><b>Qualification *</b></label>
-                            <input type="text" name="edu2_qualification" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_qualification} onChange={handleChange} required/>
+                            <input type="text" name="edu2_qualification" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu2_qualification} 
+                            onChange={handleChange} required/>
                         </div>
 
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label><b>Description *</b></label>
-                            <input type="text" name="edu2_desc" className="form-control" defaultValue={values.status === 1 ? '' : values.edu2_desc} onChange={handleChange} required/>
+                            <input type="text" name="edu2_desc" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.edu2_desc} 
+                            onChange={handleChange} required/>
                         </div>
                     </div>
                     <br />
