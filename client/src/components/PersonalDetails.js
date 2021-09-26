@@ -11,7 +11,7 @@ class PersonalDetails extends Component {
   render() {
     const { values, handleChange } = this.props;
     return (
-      <div className="card animated fadeInLeft">
+      <div id="personalDetailsid"className="card animated fadeInLeft">
         <div className="card-body">
           <img src={personalInfo} width="70" height="70" />
           <h3 className="card-title">Step 1 : Personal Information</h3>
@@ -26,7 +26,7 @@ class PersonalDetails extends Component {
                 name="name"
                 className="form-control"
                 onChange={handleChange}
-                defaultValue={values.status === 1 ? "" : values.name}
+                // defaultValue={values.status === 1 ? "" : values.name}
                 required
               />
             </div>
@@ -37,7 +37,7 @@ class PersonalDetails extends Component {
                 name="email"
                 className="form-control"
                 onChange={handleChange}
-                defaultValue={values.status === 1 ? "" : values.email}
+                // defaultValue={values.status === 1 ? "" : values.email}
                 required
               />
             </div>
@@ -48,7 +48,7 @@ class PersonalDetails extends Component {
                 name="phone"
                 className="form-control"
                 onChange={handleChange}
-                defaultValue={values.status === 1 ? "" : values.phone}
+                // defaultValue={values.status === 1 ? "" : values.phone}
                 required
               />
             </div>
@@ -61,7 +61,7 @@ class PersonalDetails extends Component {
                 type="text"
                 name="linkedin"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.linkedin}
+                // defaultValue={values.status === 1 ? "" : values.linkedin}
                 onChange={handleChange}
               />
             </div>
@@ -71,7 +71,7 @@ class PersonalDetails extends Component {
                 type="text"
                 name="github"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.github}
+                // defaultValue={values.status === 1 ? "" : values.github}
                 onChange={handleChange}
               />
             </div>
@@ -86,7 +86,7 @@ class PersonalDetails extends Component {
                 type="text"
                 name="skills"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.skills}
+                // defaultValue={values.status === 1 ? "" : values.skills}
                 onChange={handleChange}
               />
             </div>
