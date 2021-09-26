@@ -34,7 +34,7 @@ export default class Education extends Component {
                             <h3><b><i className="fas fa-check-circle mr-1"></i>University / College Information</b></h3>
                         </div>
                         <div className="col-lg-4 text-left">
-                            <label><b>College/University Name *</b></label>
+                            <label><b>University Name *</b></label>
                             <input type="text" name="edu1_school" 
                             className="form-control" 
                             // defaultValue={values.status === 1 ? '' : values.edu1_school} 

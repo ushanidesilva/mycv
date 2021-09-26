@@ -38,7 +38,7 @@ class Experience extends Component {
                 type="text"
                 name="exp1_org"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp1_org}
+                // defaultValue={values.status === 1 ? "" : values.exp1_org}
                 onChange={handleChange}
                 required
               />
@@ -49,7 +49,7 @@ class Experience extends Component {
                 type="text"
                 name="exp1_pos"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp1_pos}
+                // defaultValue={values.status === 1 ? "" : values.exp1_pos}
                 onChange={handleChange}
                 required
               />
@@ -60,7 +60,7 @@ class Experience extends Component {
                 type="text"
                 name="exp1_dur"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp1_dur}
+                // defaultValue={values.status === 1 ? "" : values.exp1_dur}
                 onChange={handleChange}
                 required
               />
@@ -74,7 +74,7 @@ class Experience extends Component {
                 type="text"
                 name="exp1_desc"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp1_desc}
+                // defaultValue={values.status === 1 ? "" : values.exp1_desc}
                 onChange={handleChange}
                 required
               />
@@ -107,7 +107,7 @@ class Experience extends Component {
                 type="text"
                 name="exp2_org"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp2_org}
+                // defaultValue={values.status === 1 ? "" : values.exp2_org}
                 onChange={handleChange}
                 
               />
@@ -118,7 +118,7 @@ class Experience extends Component {
                 type="text"
                 name="exp2_pos"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp2_pos}
+                // defaultValue={values.status === 1 ? "" : values.exp2_pos}
                 onChange={handleChange}
                 
               />
@@ -129,7 +129,7 @@ class Experience extends Component {
                 type="text"
                 name="exp2_dur"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp2_dur}
+                // defaultValue={values.status === 1 ? "" : values.exp2_dur}
                 onChange={handleChange}
             
               />
@@ -142,7 +142,7 @@ class Experience extends Component {
                 type="text"
                 name="exp2_desc"
                 className="form-control"
-                defaultValue={values.status === 1 ? "" : values.exp2_desc}
+                // defaultValue={values.status === 1 ? "" : values.exp2_desc}
                 onChange={handleChange}
                 
               />

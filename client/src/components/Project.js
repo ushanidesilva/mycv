@@ -34,18 +34,24 @@ class Project extends Component {
                         </div>
                         <div className="col-lg-6 text-left">
                             <label><b>Project Title</b></label>
-                            <input type="text" name="proj1_title" className="form-control" defaultValue={values.status === 1 ? '' : values.proj1_title} onChange={handleChange}  />
+                            <input type="text" name="proj1_title" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj1_title} 
+                            onChange={handleChange}  />
                         </div>
                         <div className="col-lg-6 text-left">
                             <label><b>Languages / Technologies</b></label>
-                            <input type="text" name="proj1_link" className="form-control" defaultValue={values.status === 1 ? '' : values.proj1_link} onChange={handleChange} />
+                            <input type="text" name="proj1_link" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj1_link} 
+                            onChange={handleChange} />
                         </div>
                         
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label><b>Description</b> (Add a small description about your Project)</label>
-                            <input type="text" name="proj1_desc" className="form-control" defaultValue={values.status === 1 ? '' : values.proj1_desc} onChange={handleChange}  />
+                            <input type="text" name="proj1_desc" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj1_desc} 
+                            onChange={handleChange}  />
                         </div>
                     </div>
 
@@ -60,18 +66,24 @@ class Project extends Component {
                         </div>
                         <div className="col-lg-6 text-left">
                             <label><b>Project Title</b></label>
-                            <input type="text" name="proj2_title" className="form-control" defaultValue={values.status === 1 ? '' : values.proj2_title} onChange={handleChange}  />
+                            <input type="text" name="proj2_title" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj2_title} 
+                            onChange={handleChange}  />
                         </div>
                         <div className="col-lg-6 text-left">
                             <label><b>Languages / Technologies</b></label>
-                            <input type="text" name="proj2_link" className="form-control" defaultValue={values.status === 1 ? '' : values.proj2_link} onChange={handleChange} />
+                            <input type="text" name="proj2_link" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj2_link} 
+                            onChange={handleChange} />
                         </div>
                         
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label><b>Description</b> (Add a small description about your Project)</label>
-                            <input type="text" name="proj2_desc" className="form-control" defaultValue={values.status === 1 ? '' : values.proj2_desc} onChange={handleChange} />
+                            <input type="text" name="proj2_desc" className="form-control" 
+                            // defaultValue={values.status === 1 ? '' : values.proj2_desc} 
+                            onChange={handleChange} />
                         </div>
                     </div>
                     <br />
